@@ -1,0 +1,14 @@
+.board {
+    table-layout: fixed;
+    width: 600px; 
+    margin: auto;
+    border: 10px solid #6c757d;
+    border-collapse: collapse;
+    height: 500px;
+}
+.cell {
+    width: 33%;
+    height: 33%;
+    border: 4px solid #495057;
+    text-align: center;
+} 
