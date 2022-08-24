@@ -5,5 +5,7 @@ p1: Basic Resume
 p2: Altered Resume with Bootstrap
 
 p3: Statistical Analysis Program
+
 p4: Tic-tac-toe
+
 p5: Final webpage displaying all projects
