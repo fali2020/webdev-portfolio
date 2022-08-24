@@ -1,0 +1,18 @@
+h1 {
+    background-color: burlywood;
+    
+}
+h2 {
+    color:darkslategray;
+}
+
+table, th, td {
+            border: 1px solid black;
+    border-spacing: 5px;
+    
+         }
+img {
+    float: right;
+    padding-left: 5px;
+    
+}
