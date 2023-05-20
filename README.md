@@ -1,6 +1,8 @@
 # Portfolio: Web Development Projects
 
-Welcome to my portfolio showcasing a collection of web development projects that I have worked on. Within this repository, you will find five distinct projects, each demonstrating my skills in HTML, CSS, JavaScript, and Bootstrap. Let's dive into the highlights of each project:
+Welcome to my portfolio showcasing a collection of web development projects that I have worked on. The website showcasing my portfolio is deployed using GitHub Pages. To visit the deployed website, simply follow this link: https://fali2020.github.io/portfolio/
+
+Within this repository, you will find five distinct projects, each demonstrating my skills in HTML, CSS, JavaScript, and Bootstrap. Let's dive into the highlights of each project:
 
 ## Project 1: Basic Resume
 
