@@ -16,7 +16,7 @@ Building upon the Basic Resume, the Altered Resume project takes advantage of th
 
 The Statistical Analysis Program is a web-based application developed using HTML, CSS, JavaScript, and Bootstrap. It allows users to input values and obtain essential statistical measures such as mean, median, range, maximum and minimum values. It has a modern and user-friendly interface for users to analyze and explore statistical data.
 
-## Project 4: Tic-tac-toe
+## Project 4: Tic-Tac-Toe
 
 With the Tic-tac-toe project, I implemented the classic game using HTML, CSS, JavaScript, and Bootstrap. This project features a multiplayer mode, allowing users to challenge friends in a competitive game.
 
