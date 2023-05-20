@@ -1,78 +1,116 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Fatimah Ali - Resume</title>
-        <link rel="stylesheet"
-              href="mycss.css"> 
-    </head>
-    <body>
-        
-        <nav>
-            <a href="references.html">References</a>||
-            <a href="aboutme.html">About Me</a>||
-            <a href="contact.html">Contact Me</a>
-        </nav>
-        
-        
-        <h1>Fatimah Ali - Resume</h1>
-        
-        <img src="arnold-francisca-f77Bh3inUpE-unsplash.jpg" alt="title image">
-        <img src="book.jpeg" alt="book image">
-        
-        <div>
-        <h2>Skills</h2>
-        <ul>
-            <li>Willing to learn</li>
-            <li>Efficient in technology use</li>
-            <li>Problem-solver and team player</li>
-            <li>Motivated and dedicated</li>
-            <li>Bilingual</li>
-        </ul>
+<head>
+    <title>Fatimah Ali - Resume</title>
+    <link rel="stylesheet" href="mycss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <style>
+        .resume-image {
+            height: 200px; 
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Fatimah Ali - Resume</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="references.html">References</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome to My Resume</h1>
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="arnold-francisca-f77Bh3inUpE-unsplash.jpg" alt="Image 1" class="img-fluid resume-image">
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="360_F_207154541_QGSAOYNctylzo3ZEJAI0VM5huKfZWOQn.jpg" alt="Image 2" class="img-fluid resume-image">
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="book.jpeg" alt="Image 3" class="img-fluid resume-image">
+            </div>
         </div>
 
-        <div>
-        <h2>Education</h2>
-        <table>
-            <tr>
-            <th>School</th>
-            <th>Graduation Year</th>
-            <th>Degree</th>    
-            </tr>
-            
-            <tr>
-            <td>Florida Atlantic University</td>
-            <td>2023</td>
-            <td>Bachelors of Science in Computer Science</td>
-            </tr>
-            
-            <tr>
-            <td>Boca Raton Community High School</td>
-            <td>2020</td>
-            <td>High School Diploma</td>
-            </tr>
-        </table>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Willing to learn</li>
+                <li>Efficient in technology use</li>
+                <li>Problem-solver and team player</li>
+                <li>Motivated and dedicated</li>
+                <li>Bilingual</li>
+            </ul>
         </div>
-        
-        <div>
-        <h2>Professional Experience</h2>
-        <ul>
-            <li>HJ Miami Photo - Intern 2018</li>
-            <li>Bed, Bath & Beyond - Sales Associate 2019-20</li>
-        </ul>
-        </div>
-    <br><br>
 
-    <footer>
-        <p>
-        Contact Me: <a href="mailto:fali2020@fau.edu">fali2020@fau.edu</a>
-        </p>
-        
-        <p> 
-            <span>For more information: </span>
-            <span>visit <a href="aboutme.html">About Me</a> or <a href="references.html">References</a></span>
-        </p>
-    </footer>
-        
-    </body>
-    
+        <div class="section">
+            <h2>Education</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Graduation Year</th>
+                        <th>Degree</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Florida Atlantic University</td>
+                        <td>2023</td>
+                        <td>Bachelor of Science in Computer Science</td>
+                    </tr>
+                    <tr>
+                        <td>Boca Raton Community High School</td>
+                        <td>2020</td>
+                        <td>High School Diploma</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li>HJ Miami Photo - Intern 2018</li>
+                <li>Bed, Bath & Beyond - Sales Associate 2019-20</li>
+            </ul>
+        </div>
+
+        <br><br>
+
+        <footer>
+            <p>Contact Me: <a href="mailto:fali2020@fau.edu">fali2020@fau.edu</a></p>
+            
+            <p>
+                For more information, visit
+                <a href="aboutme.html">About Me</a> or
+                <a href="references.html">References</a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- Add JavaScript libraries if needed, e.g., Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Add your custom JavaScript files if needed -->
+    <script src="script.js"></script>
+</body>
 </html>
