@@ -1,6 +1,6 @@
 # Web Development Projects
 
-This is a collection of web development projects that I have worked on. The website showcasing this portfolio is deployed using GitHub Pages. To visit the deployed website, simply follow this link: https://fali2020.github.io/portfolio/
+This is a collection of web development projects that I have worked on. The website showcasing this portfolio is deployed using GitHub Pages. To visit the deployed website, simply follow this link: https://fali2020.github.io/webdev-portfolio/
 
 Within this repository, you will find five distinct projects, each demonstrating my skills in HTML, CSS, JavaScript, and Bootstrap. Let's dive into the highlights of each project:
 
@@ -22,7 +22,7 @@ With the Tic-tac-toe project, I implemented the classic game using HTML, CSS, Ja
 
 ## Project 5: Final Webpage Displaying All Projects
 
-The final webpage is a comprehensive showcase that brings together all projects into a single webpage. With seamless navigation and project previews, it serves as a convenient hub for exploring the entirety of my portfolio.
+The final webpage is a comprehensive showcase that brings together all projects into a single webpage. With seamless navigation and project previews, it serves as a convenient hub for exploring the entirety of this portfolio.
 
 Feel free to explore each project individually for a closer look at the code, functionality, and design choices. Enjoy your journey through my web development ventures!
 
